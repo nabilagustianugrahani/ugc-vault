@@ -34,15 +34,12 @@ status: active
   3. Provide .edu email
 
 ### 3. **GitHub Copilot Student** — free
-- **Status**: available again (was paused, now back)
+- **Status**: ⏸️ PAUSED (April 20, 2026 — sign-ups temporarily suspended)
 - **URL**: https://github.com/settings/copilot
 - **Impact**: HIGH — AI pair programmer for daily coding
 - **CC**: NO
-- **Time**: 2 min
-- **Action**:
-  1. Go to https://github.com/settings/copilot
-  2. Click "Get Copilot Student"
-  3. Verify student status
+- **Time**: 2 min (when re-opened)
+- **Action**: Wait for sign-ups to re-open, then claim at https://github.com/settings/copilot
 
 ### 4. **Vercel Pro** — $240/year value
 - **URL**: https://vercel.com (claim via GSP)
