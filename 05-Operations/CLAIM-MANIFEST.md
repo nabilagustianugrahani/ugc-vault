@@ -10,6 +10,8 @@ data-source: https://github.com/github-education-resources/Student-Developer-Pac
 > Ranked by **project impact / value**. CC-free only.
 > Data sources: SDP-changelog (Feb 26, 2026), Modal docs, fal.ai docs, dev.to 2026-05-20.
 
+> ⚠️ **STATUS: SKIPPED per user (2026-06-06)** — User said "kalau gabisa di klaim gausah" (if it can't be claimed, don't bother). All GSP claims require user action via web. Focus shifted to project work that OpenCode can do automatically.
+
 ## 🔴 TIER 1 — Claim HARI INI (highest value, no CC)
 
 ### 1. **Modal.com Academic** — $10,000 credits
