@@ -23,6 +23,9 @@ tags: [opencode, gotchas, learnings]
 - Some plugins slow startup 60s+ (don't add unnecessary ones)
 - If model is "minimax-m3-free" but slow, check OpenCode Zen status
 - Agent prompt files: `/workspaces/Coba/.opencode/agents/{name}.md`
+- **MUST use `--dir /workspaces/Coba --dangerously-skip-permissions`** or opencode rejects reads to external dir
+- Default working dir is `/home/vscode` — agent won't see the project unless you specify `--dir`
+- Without `--dangerously-skip-permissions`, the agent gets stuck on "permission requested: external_directory" and dies silently
 
 ## Mypy
 - Was 52 errors, now 0
