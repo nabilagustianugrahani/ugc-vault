@@ -39,3 +39,32 @@
 4. **Helper script** (/home/aer/bin/dispatch-batch.sh) saves 30s per dispatch
 5. **UI/UX Pro Max** is a game-changer for design quality
 6. **big-pickle model** works great for code, fails on long refactors
+
+## Session 3 (continued - Modal.com + Affiliate)
+
+| Commit | Tests | Δ | Description |
+|--------|-------|---|-------------|
+| 192e4c4 | — | (lost) | Design system doc (re-added in 387d718) |
+| 387d718 | 1367 | +0 | DESIGN-SYSTEM.md re-added |
+| d5839a0 | 1384 | +17 | BATCH M (8 Notion schemas) |
+| fdf82bc | 1399 | +15 | BATCH N (Prometheus + logging + tracing) |
+| e9799cb | 1441 | +42 | BATCH O (multi-channel notifications) |
+| 254d556 | 1465 | +24 | BATCH P (CLI polish + dashboard launcher) |
+| 10525bd | 1519 | +54 | BATCH Q (Modal.com real deployer + Wan 2.1 + FLUX.2-klein) |
+| **616deac** | **1592** | +70 | BATCH R (Affiliate tracking + analytics + caption injector + modal config) |
+
+## Modal.com Setup (2026-06-06)
+- Test tokens saved to `/home/aer/.config/ugc/modal.env` (chmod 600, NOT in git)
+- `MODAL_TOKEN_ID=ak-uLYtvyzzCBKHDuZZotU5gt`
+- `MODAL_TOKEN_SECRET=as-BCSYWDgqcfpMFrYIX0k9Pl`
+- Credits exhausted but auth works (`is_authenticated() = True`)
+- Real config matches https://modal.com/docs/reference/modal.config:
+  - env vars take precedence over .modal.toml
+  - Optional: loglevel, logs_timeout, max_throttle_wait, force_build, ignore_cache, traceback, log_pattern, dev_suffix
+  - Meta: MODAL_CONFIG_PATH (default ~/.modal.toml), MODAL_PROFILE (default "default")
+- modal_deploy.py updated to match real schema
+
+## Key Insight: BATCH R is the highest-value batch
+- Affiliate link tracking is the actual revenue mechanism of the UGC project
+- Without this, the project is "just content gen" - with this, it's a business
+- 70 tests covers full lifecycle: link creation, click tracking, conversion attribution, revenue reporting, niche/platform breakdowns, revenue forecasting, anomaly detection
