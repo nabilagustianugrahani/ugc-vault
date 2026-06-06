@@ -1,144 +1,280 @@
 ---
-tags: [gsp, claims, priority]
+tags: [gsp, claims, priority, mei-2026]
 status: active
+last-updated: 2026-06-06
+data-source: https://github.com/github-education-resources/Student-Developer-Pack-Current-Partners-FAQ/blob/main/SDP-changelog.md
 ---
 
-# CLAIM-MANIFEST: GitHub Student Pack
+# CLAIM-MANIFEST: GitHub Student Pack (Updated Mei 2026)
 
 > Ranked by **project impact / value**. CC-free only.
+> Data sources: SDP-changelog (Feb 26, 2026), Modal docs, fal.ai docs, dev.to 2026-05-20.
 
-## 🔴 TIER 1 — Claim FIRST (high value, no CC)
+## 🔴 TIER 1 — Claim HARI INI (highest value, no CC)
 
 ### 1. **Modal.com Academic** — $10,000 credits
 - **URL**: https://modal.com/academics
-- **Need**: .edu email or enrollment proof
-- **Impact**: ∞ — replaces our $5/mo budget with $10k. Project's AI gen layer can scale 2000x.
-- **Use case**: 1000s of videos/images/voices per day, no worry about cost
+- **Apply**: https://modal.com/credits (redeem page)
+- **Need**: .edu email + enrollment proof (e.g., student ID)
+- **Approval**: 1-2 weeks via Modal team
+- **Impact**: ∞ — replaces our $5/mo budget with $10k. Project AI gen layer scales 2000x.
+- **Use case**: 1000+ videos/images/voices per day, no cost worry
 - **CC**: NO
-- **Time**: 10 min (form + verification)
-- **Action**: 
-  1. Go to https://modal.com/academics
-  2. Click "Apply Here"
-  3. Submit .edu email + school enrollment proof
-  4. Wait 1-2 weeks for approval
+- **Time**: 10 min
 
-### 2. **fal.ai Education** — 50-90% off
-- **URL**: https://fal.ai (apply via student portal)
+### 2. **fal.ai Education Discount** — 50-90% off
+- **URL**: https://fal.ai (sign in → apply Education Discount in dashboard)
 - **Need**: .edu email or school ID
 - **Impact**: HIGH — premium models (Kling 3.0, Veo 3.1) become 50-90% cheaper
-- **CC**: NO (verify only)
-- **Time**: 15 min
-- **Action**:
-  1. Sign in to fal.ai with GitHub
-  2. Apply via "Education Discount" link
-  3. Provide .edu email
-
-### 3. **GitHub Copilot Student** — free
-- **Status**: ⏸️ PAUSED (April 20, 2026 — sign-ups temporarily suspended)
-- **URL**: https://github.com/settings/copilot
-- **Impact**: HIGH — AI pair programmer for daily coding
 - **CC**: NO
-- **Time**: 2 min (when re-opened)
-- **Action**: Wait for sign-ups to re-open, then claim at https://github.com/settings/copilot
+- **Time**: 15 min
 
-### 4. **Vercel Pro** — $240/year value
-- **URL**: https://vercel.com (claim via GSP)
-- **Need**: GitHub OAuth + GSP
-- **Impact**: HIGH — for hosting FastAPI/htmx web dashboard, custom domain
-- **CC**: NO (Vercel free tier + GSP Pro = no card needed)
-- **Time**: 5 min
+### 2b. **fal.ai Research Grants** — FREE compute
+- **URL**: grants@fal.ai
+- **Need**: open source AI project description + GitHub
+- **Impact**: HIGH — free credits for open source AI projects
+- **CC**: NO
+- **Time**: 30 min (write good project description)
+- **This is OUR best bet since project is open source UGC AI**
 
-### 5. **JetBrains** — $699/year (PyCharm Pro)
+### 3. **Appwrite Education Plan** — 10 projects, $160/mo
+- **URL**: https://appwrite.io (claim via SDP)
+- **Updated Feb 26, 2026**: 10 projects (was 2), worth $160/mo (was $40/mo)
+- **Impact**: HIGH — auth + DB + storage for the UGC web dashboard
+- **CC**: NO
+- **Time**: 10 min
+- **Asli game-changer untuk BATCH D dashboard**
+
+### 4. **JetBrains All IDEs** — $699/year
 - **URL**: https://jetbrains.com/shop/eform/students
 - **Need**: .edu email or ISIC
-- **Impact**: HIGH for Python dev
+- **Impact**: HIGH for Python dev (PyCharm Pro)
 - **CC**: NO
 - **Time**: 5 min
 
-## 🟡 TIER 2 — Claim this week (medium value)
+### 5. **1Password** — 1 year free
+- **URL**: https://1password.com (claim via SDP)
+- **Need**: GitHub OAuth
+- **Impact**: HIGH — secrets management for API keys (Modal, fal, TikHub, Notion)
+- **CC**: NO
+- **Time**: 10 min
 
-### 6. **Appwrite** — $40/month value (Pro-equivalent)
-- For auth + DB + storage for the UGC web dashboard
-- Could replace our local SQLite
+### 6. **Doppler** — Team subscription free
+- **URL**: https://doppler.com (claim via SDP)
+- **Impact**: HIGH — secrets management alternative to .env files
+- **CC**: NO
+- **Time**: 10 min
+- **Same use case as 1Password, choose one**
 
-### 7. **1Password** — free 1 year
-- Secrets management for all API keys (Modal, fal, TikHub, Notion, etc.)
+### 7. **Heroku** — $13/month × 24 months = $312 total
+- **URL**: https://heroku.com/github-students
+- **Need**: Apply via SDP
+- **Impact**: MEDIUM — easy deployment for prototypes
+- **CC**: Required by Heroku itself (we'll skip)
+- **Time**: 15 min
+- **NOTE**: This DOES require CC, so SKIP
 
-### 8. **Namecheap** — 1 year .me domain + 1 SSL
-- For `aer.me` or `ugc.ai` (project landing page)
+## 🟡 TIER 2 — Claim minggu ini (medium-high value)
 
-### 9. **.TECH** — 1 year .tech domain
-- For `ugc.tech`
+### 8. **Vercel Pro** — $240/yr (SEPARATE program, not in GSP)
+- **URL**: https://vercel.com/github-students (claim via GitHub Pro partnership)
+- **CC**: NO for free tier, may need for Pro upgrade
+- **Impact**: HIGH for hosting the FastAPI web dashboard
+- **NOTE**: Not in GSP directly, but available via GitHub Student verification
 
-### 10. **Microsoft Azure Students** — $100 credit, no CC
-- For experimenting with cloud services
-- Storage, Functions, etc.
+### 9. **New Relic** — $300/month value
+- **URL**: https://newrelic.com (claim via SDP)
+- **Impact**: HIGH — APM monitoring, error tracking, replace our custom health_monitor
 
-### 11. **Camber** — 200 CPU hours + 75GB + 200 LLM msgs/month
-- For batch processing or scientific computing
+### 10. **Sentry** — error tracking
+- **URL**: https://sentry.io (claim via SDP)
+- **Impact**: HIGH — replace our logging with proper error tracking
+- **CC**: NO
 
-### 12. **New Relic** — $300/month value, 1 year free
-- APM monitoring for production
-- Replace our custom health_monitor
+### 11. **Datadog** — Pro 2 years
+- **URL**: https://datadoghq.com (claim via SDP, email studentpack@datadoghq.com)
+- **Impact**: HIGH — full observability
+- **CC**: Likely needed for Pro, may skip
 
-## 🟢 TIER 3 — Claim when needed (low/medium value)
+### 12. **Honeybadger** — error tracking
+- **URL**: https://honeybadger.io (claim via SDP)
+- **Impact**: MEDIUM-HIGH — alternative to Sentry
+- **CC**: NO
 
-- **MongoDB Atlas** $50 credits — may need CC, skip for now
-- **Docker Desktop Pro** $108/year — for container dev
-- **Datadog** Pro 2 years — may need CC
-- **Polypane** 1 year — for testing web dashboard
-- **Bootstrap Studio** free license — for UI mockups
-- **Notion Education** — already have Notion, claim for Education plan upgrade
-- **Testmail** — free email testing
-- **Termius** — Pro SSH client
-- **Stripe** — $1000 fee waiver (for payment integration)
-- **Clerk** — free Pro auth
-- **DataCamp** 3 months — for learning
-- **FrontendMasters** 6 months — for learning
-- **Educative** 6 months — for learning
-- **Boot.dev** 3 months — for backend learning
-- **Codedex** 6 months — for Gen Z learning
-- **PomoDone** 2 years — productivity
-- **Travis CI** — CI/CD
-- **GitKraken** 6 months — Git GUI
-- **GitLens** — VSCode extension
-- **POEditor** — translation platform
-- **Educative** — learning
-- **Microsoft 365** — 1TB OneDrive + Office
+### 13. **Requestly** — Pro plan, 1 year free ($270 value)
+- **URL**: https://requestly.io (claim via SDP)
+- **Impact**: MEDIUM — API dev, mock HTTP, modify requests on the fly
+
+### 14. **DevCycle** — Starter Plan 1 year free
+- **URL**: https://devcycle.com (claim via SDP, email education@devcycle.com)
+- **Impact**: MEDIUM — feature flags for staged rollouts
+
+### 15. **Camber** — 200 CPU hours + 75GB + 200 LLM msgs/month
+- **URL**: https://cambercloud.com (claim via SDP)
+- **Impact**: HIGH for batch processing (video gen batch, image batch)
+
+### 16. **LocalStack** — Free AWS emulator license
+- **URL**: https://localstack.cloud (claim via SDP)
+- **Impact**: MEDIUM — test AWS integrations locally
+
+### 17. **Microsoft Azure for Students** — $100 credit, no CC
+- **URL**: https://azure.microsoft.com/en-us/free/students/
+- **CC**: NO (truly free for students)
+- **Impact**: HIGH for production deployment
+
+## 🟢 TIER 3 — Claim when needed (low-medium value, no CC)
+
+### Domains (claim NOW to lock name)
+- **Namecheap** — 1 year .me + SSL free
+- **Name.com** — 1 year domain (25+ TLDs: .live, .studio, .software, .app, .dev)
+- **.TECH** — 1 year .tech domain
+
+### Cloud / Database
+- **MongoDB Atlas** — $50 credits (may need CC, skip)
+- **Microsoft Azure** — covered above
+
+### Productivity
+- **Notion Education** — already have Notion, but claim for Education plan upgrade (more sharing, longer history, AI responses)
 - **Notion Template Collection** — free templates
+- **Microsoft 365** — 1TB OneDrive + Office (no CC)
 
-## ❌ SKIP (require CC)
+### Learning (claim if needed)
+- **DataCamp** — 3 months free
+- **Educative** — 6 months free
+- **FrontendMasters** — 6 months free
+- **Codedex** — 6 months Club
+- **Scrimba** — 1 month free
+- **Boot.dev** — 3 months free
+- **AlgoExpert** — 20 coding Qs + 10% off
 
-- DigitalOcean $200 (CC required)
-- Heroku $13/mo (CC required)
-- Microsoft Visual Studio Dev Essentials ($200 credit, CC)
+### Developer tools
+- **GitLens** — VSCode extension
+- **GitKraken** — 6 months free + 80% off (changed Sep 17, 2025)
+- **Tower** — Git GUI (Mac)
+- **Polypane** — 1 year free
+- **Bootstrap Studio** — free license
+- **WorkingCopy** — Git on iOS
+- **Termius** — Pro SSH client
+- **Blackfire** — PHP profiling
+- **Codecov** — code coverage
+- **CodeScene** — code quality
+- **DeepScan** — JS code analysis
+- **Honeybadger** — error tracking
+- **Pageclip** — static forms
+- **HazeOver** — distraction dimmer
 
-## Action Plan for Today
+### Design / Icons
+- **IconScout** — 60 premium icons/month, 1 year
+- **Icons8** — icons
+- **Visme** — 3 months free (presentations)
+- **SlideCoach** — 2000 credits (40 AI presentation sessions), 1 year
+- **ToDiagram** — JSON/YAML/CSV → diagrams Pro plan
+- **Arduino Cloud** — 6 months free
+- **Adafruit** — hardware discounts
 
-```bash
-# 1. Set up vault (DONE)
-# 2. Push vault to GitHub (TODO)
-# 3. Update AGENTS.md to teach OpenCode about vault
-# 4. User claims Tier 1 items (15 min total)
-# 5. Re-claim Tier 2 this week
-```
+### Email / Comms
+- **Testmail** — free Essential plan
+- **Dashlane** — password manager
+- **1Password** — covered above
+- **Doppler** — covered above
 
-## Status
+### Build / Deploy
+- **Travis CI** — CI/CD
+- **PopSQL** — SQL editor
+- **GoRails** — Ruby on Rails tutorials (probably skip)
+- **POEditor** — translation platform
+- **SymfonyCasts** — Symfony tutorials (skip, not our stack)
 
-| # | Offer | Status | Date |
-|---|-------|--------|------|
-| 1 | Modal Academic | ⏳ TODO |  |
-| 2 | fal.ai Education | ⏳ TODO |  |
-| 3 | GitHub Copilot Student | ⏳ TODO |  |
-| 4 | Vercel Pro | ⏳ TODO |  |
-| 5 | JetBrains | ⏳ TODO |  |
-| 6 | Appwrite | ⏳ TODO |  |
-| 7 | 1Password | ⏳ TODO |  |
-| 8 | Namecheap .me | ⏳ TODO |  |
-| 9 | .TECH | ⏳ TODO |  |
-| 10 | Azure Students | ⏳ TODO |  |
-| 11 | Camber | ⏳ TODO |  |
-| 12 | New Relic | ⏳ TODO |  |
+### Misc
+- **CryptoLens/Devlens** — license management
+- **Octicons** — GitHub icons
+- **Xojo** — cross-platform dev
+- **Interview Cake** — coding interview prep
+- **Blockchair** — blockchain explorer
+- **CARTO** — location intelligence
+- **Appfigures** — app analytics (Connect plan, 1 year)
+- **Datadog** — covered above
+- **GitHub Foundations Certification voucher** — 1 voucher for Foundations OR Copilot exam (resumed Sep 30, 2025)
+- **SimpleAnalytics** — privacy analytics
+- **ConfigCat** — feature flags
+- **Themeisle** — WordPress themes
+- **Vaadin** — Java web framework
+- **Astra Security** — security scanner
+- **BrowserStack** — cross-browser testing
+- **Zyte** (formerly Scrapinghub) — web scraping
+
+## ❌ SKIP (PAUSED, REMOVED, or CC required)
+
+### PAUSED as of 2026
+- ⏸️ **GitHub Copilot Student** (paused Apr 20, 2026) — wait for re-open
+- ⏸️ **DeepSource** (paused Mar 21, 2025) — use Free plan
+- ⏸️ **Mailgun** (paused Mar 10, 2025)
+- ⏸️ **Kodika** (paused Feb 27, 2025)
+- ⏸️ **Thinkful** (removed Oct 2025)
+
+### REMOVED (don't try)
+- ❌ PomoDone (Aug 2024, no longer operating)
+- ❌ Bump.sh (Dec 9, 2025)
+- ❌ Canva, Codecademy, Figma-in-pack, Linode, Replit, Gitpod, Typeform, Auth0, Crowdin, Phrase, Weights&Biases, Cloudways, Dataquest, Datree, Freshpaint, Sider, InVision, Slido, Sun/source, Raygun, etc.
+
+### CC REQUIRED
+- ❌ Heroku (CC required, but $312 value)
+- ❌ DigitalOcean ($200 credit, CC)
+- ❌ Microsoft Visual Studio Dev Essentials ($200 credit, CC for verification)
+- ❌ MongoDB Atlas (likely CC)
+
+## Action Plan for Today (15 min)
+
+### Quick wins (10 min, no CC, no .edu needed):
+1. ✅ Appwrite (auth+DB for dashboard) — 10 min
+2. ✅ 1Password (secrets) — 10 min
+3. ✅ New Relic (monitoring) — 10 min
+4. ✅ Sentry (error tracking) — 5 min
+5. ✅ Doppler (secrets alt) — 10 min
+6. ✅ Requestly (API dev) — 5 min
+7. ✅ DevCycle (feature flags) — 5 min
+8. ✅ Camber (batch processing) — 5 min
+9. ✅ Namecheap .me domain — 5 min
+10. ✅ GitHub Foundations Certification voucher — 2 min
+
+### With .edu email (5-15 min):
+- ⏳ Modal Academic ($10k!) — butuh .edu
+- ⏳ fal.ai Education Discount — butuh .edu
+- ⏳ fal.ai Research Grants (BEST for open source UGC project!) — butuh .edu
+- ⏳ JetBrains — butuh .edu
+- ⏳ Microsoft Azure Students $100 — butuh .edu
+
+## Updated Status (Mei 2026)
+
+| # | Offer | Status | Date | Notes |
+|---|-------|--------|------|-------|
+| 1 | Modal Academic $10k | ⏳ User action |  | Need .edu email apply |
+| 2 | fal.ai Education | ⏳ User action |  | Need .edu email apply |
+| 2b | **fal.ai Research Grants** | ⏳ User action |  | **BEST for our project — apply NOW** |
+| 3 | Appwrite 10proj/$160mo | ⏳ User action |  | 4x better since Feb 2026 |
+| 4 | JetBrains | ⏳ User action |  | Need .edu |
+| 5 | 1Password | ⏳ User action |  | No .edu needed |
+| 6 | Doppler | ⏳ User action |  | No .edu needed |
+| 7 | Heroku $312 | ❌ CC required |  | Skip |
+| 8 | Vercel Pro $240 | ⏳ User action |  | Separate program |
+| 9 | New Relic $300/mo | ⏳ User action |  | No .edu needed |
+| 10 | Sentry | ⏳ User action |  | No .edu needed |
+| 11 | Datadog Pro 2yr | ⏳ User action |  | May need CC |
+| 12 | Honeybadger | ⏳ User action |  | No .edu needed |
+| 13 | Requestly Pro 1yr $270 | ⏳ User action |  | No .edu needed |
+| 14 | DevCycle 1yr free | ⏳ User action |  | No .edu needed |
+| 15 | Camber | ⏳ User action |  | No .edu needed |
+| 16 | LocalStack | ⏳ User action |  | No .edu needed |
+| 17 | Azure Students $100 | ⏳ User action |  | Need .edu |
+| 18 | GitHub Copilot Student | ⏸️ PAUSED |  | Re-check later |
+| 19 | GH Foundations Cert | ⏳ User action |  | Voucher for exam |
+
+## Data Sources (verified Mei 2026)
+- SDP changelog: https://github.com/github-education-resources/Student-Developer-Pack-Current-Partners-FAQ/blob/main/SDP-changelog.md
+- Modal Academic: https://modal.com/academics
+- fal.ai docs: https://fal.ai/docs, https://fal.ai/grants
+- 2026 review: https://www.studentperks.dev/blog/github-student-pack-worth-it-2026
+- DEV article 2026-05-20: https://dev.to/amals367/what-you-actually-get-from-github-student-developer-pack-no-corporate-fluff-2g3a
 
 ## Related
 - [[GitHub-Student-Pack]]
