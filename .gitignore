@@ -1,0 +1,7 @@
+.obsidian/workspace.json
+.DS_Store
+.obsidian/cache
+*.swp
+*.tmp
+09-Attachments/*
+!09-Attachments/.gitkeep
